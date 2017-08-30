@@ -7,8 +7,10 @@ python interview
 
 ## “猴子补丁”（monkey patching）指的是什么？这种做法好吗？
 
-
 ## GET 和 POST 的区别
+
+- https://www.oschina.net/news/77354/http-get-post-different
+- https://zhuanlan.zhihu.com/p/25028045
 
 ## Python2 和 Python3 有哪些区别
 
@@ -17,7 +19,6 @@ python interview
 ## Python是如何进行类型转换的？
 
 ## 说说你对pythonic的看法
-
 
 ## 你调试python代码的方法有哪些?
 
@@ -37,6 +38,11 @@ python interview
 
 ## 下面代码的输出是什么？请解释你的答案
 
+## 实现爬虫
+
+## 多进程与多线程
+
+```python
 def print_list(val, lst=[]):
     lst.append(val)
     return lst
@@ -44,3 +50,7 @@ def print_list(val, lst=[]):
 print_list(10)
 print_list(123, [])
 print_list('a')
+```
+
+Python函数参数默认值的陷阱和原理深究
+http://cenalulu.github.io/python/default-mutable-arguments/
